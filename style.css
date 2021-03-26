@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+section#home.home-area {
+  color:antiquewhite;
+  font-weight: lighter;
+  line-height: 2em;
+  text-shadow: .5px .10px #272626;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 10px;
+  padding: 3px;
+}
+
+header {
+  margin-right: 1px;
+  padding: 5px;
+  justify-content: center;
+}
+
+nav, li {
+  list-style: none;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav {
+  display: flex;
+  padding: 10px;
+} 
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 125px 30px;
+}
+
+section p {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0 40px;
+  max-width: 780px;
+}
+
+.home-area {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 25%,rgba(255,153,153,0) 45%,rgb(255, 255, 255) 100%), url("DSC04123.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+footer{
+  text-align: center;
+}
+
+footer {
+  background: linear-gradient(rgb(247, 241, 241) 0%, transparent 100%);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.skills-content li {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+}
+
+h5 {
+  letter-spacing: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section.skills-content {
+  flex-direction: row;
+}
+
+button {
+  padding: 20px;
+  background: transparent;
+  border-color: aliceblue;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px
+}
