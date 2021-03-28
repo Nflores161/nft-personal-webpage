@@ -19,6 +19,12 @@ section#home.home-area {
   text-align: center;
 }
 
+h3 {
+  margin-top: 15px;
+  font-weight: lighter;
+  font-family: Inter;
+}
+
 nav a {
   text-decoration: none;
   color: inherit;
@@ -91,6 +97,15 @@ section p {
   background-size: cover;
   /* margin-bottom: 20px; */
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 250px;
+    width: 250px;
+  }
 
 footer{
   text-align: center;
