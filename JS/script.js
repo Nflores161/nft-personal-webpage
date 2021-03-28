@@ -5,5 +5,5 @@ home.addEventListener("mouseover", mouseDisplay);
 
 function mouseDisplay() {
   console.log("mouse display worked");
-  home.style.color = "#2baec5";
+  home.style.color = "#cdedf3";
 }
